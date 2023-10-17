@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-content">
+        <form>
+            <input type="date" name="date" id="date">
+            <button type="submit">Start Countdown</button>
+        </form>
+        <h1 id="main-heading">Countdown to the Day you will enter</h1>
+        <ul class="timer">
+            <div class="outer_div">
+                <div class="days_left">
+                    <li id="days">75990</li>
+                </div>
+                <p>Days</p>
+            </div>
+            <div class="outer_div">
+                <div class="days_left">
+                    <li id="hours">11</li>
+                </div>
+                <p>Hours</p>
+            </div>
+            <div class="outer_div">
+                <div class="days_left">
+                    <li id="minutes">11</li>
+                </div>
+                <p>Minutes</p>
+            </div>
+            <div class="outer_div">
+                <div class="days_left">
+                    <li id="seconds">11</li>
+                </div>
+                <p>Seconds</p>
+            </div>      
+        </ul>
+    </div>    
+    <script src="main.js"></script>
+</body>
+</html>
